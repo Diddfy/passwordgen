@@ -5,13 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
     height: 100vh;
-}
-
-#container {
-    width: 550px;
-    height: 550px;
 }
 
 span {
