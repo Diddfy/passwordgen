@@ -68,3 +68,18 @@ span {
     background-color: #059669;
     cursor: pointer;
 }
+
+#input {
+    width: 30px;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+    font-size: "Karla", sans-serif;
+}
+
+#input-label {
+    font-family: "Karla", sans-serif;
+    color: #D5D4D8;
+    margin-right: 10px;
+}

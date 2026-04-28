@@ -5,8 +5,9 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
                     "=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"];
 
-let password1 = document.getElementById("password1");
-let password2 = document.getElementById("password2");
+const password1 = document.getElementById("password1");
+const password2 = document.getElementById("password2");
+const inputVal = document.getElementById("input")
 
 function randomEl() {
     password1.textContent = random();
@@ -15,7 +16,9 @@ function randomEl() {
 
 function random() {
     let rando = "";
-    for (let i = 0; i < 15; i++) {
+    let index = inputVal.value
+    
+    for (let i = 0; i < index; i++) {
         let randomIndex = Math.floor(Math.random() * characters.length);
         rando += characters[randomIndex];
     }
